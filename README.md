@@ -1,6 +1,6 @@
 # hidewindow
 
-A simple cross-platform application to hide other application windows behind it.
+A simple cross-platform application built using [electron](https://electronjs.org/) to hide other application windows behind it.
 The application window will always appear on top of other windows.
 
 The application was developed to blackout other displays while watching movies on the main display.
