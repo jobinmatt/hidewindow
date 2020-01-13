@@ -6,7 +6,7 @@ The application window will always appear on top of other windows.
 The application was developed to blackout other displays while watching movies on the main display.
 
 ![](sample_images/hidewindow_example_1.png)
-Above is an example of three instances of hidewindow in full screen mode on three displays.
+Above is an example of three instances of hidewindow in full-screen mode on three displays.
 
 Usage:
 * Drag edges to scale the window to your heart's delight.
