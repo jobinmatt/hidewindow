@@ -14,3 +14,5 @@ Usage:
 * The 's' key toggles the particle animation.
 * The 'w' key toggles between black and white background colors.
 * 'F11' key allows you to go into full-screen mode.
+
+The particle animation was acheived using the [particle.js](https://vincentgarreau.com/particles.js/) library.
