@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hide Window</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+            document.addEventListener("keydown", handleEnter, false);
+            function handleEnter(e){
+            var keycode = (e.keyCode ? e.keyCode : e.which);
+            if (keycode == '87') {
+                if(document.body.style.background == "white"){
+                    document.body.style.background = "black";
+                }else{
+                    document.body.style.background = "white";
+                }                
+            }
+            if (keycode == '83') {
+                if(pJSDom[0].pJS.start.started == true){
+                    cancelRequestAnimFrame(pJSDom[0].pJS.fn.checkAnimFrame);
+                    cancelRequestAnimFrame(pJSDom[0].pJS.fn.drawAnimFrame);
+                    pJSDom[0].pJS.fn.particlesEmpty();
+                    pJSDom[0].pJS.fn.canvasClear();
+                    pJSDom[0].pJS.start.started=false;
+                }else{
+                    pJSDom[0].pJS.fn.particlesRefresh();
+                    pJSDom[0].pJS.start.started=true;
+                }                
+            }
+        }
+    </script>
+</head>
+<body onkeypress="handleEnter(event)">
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "hidewindow",
+  "version": "1.0.0",
+  "description": "Hide tool to be used as an overlay window",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jobin Mathew",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.1.8",
+    "electron-packager": "^13.1.1",
+    "particles.js": "^2.0.0"
+  }
+}

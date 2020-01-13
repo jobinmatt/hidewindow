@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background: black;
+    justify-content: center;
+    -webkit-app-region: drag;
+    overflow: hidden;
+}
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
