@@ -9,7 +9,7 @@
   "author": "Jobin Mathew",
   "license": "MIT",
   "dependencies": {
-    "electron": "^7.1.8",
+    "electron": "^15.5.5",
     "electron-packager": "^13.1.1",
     "particles.js": "^2.0.0"
   }
